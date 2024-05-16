@@ -4,8 +4,8 @@ swagger: '2.0'
 info:
   title: Runtime
   version: V1
-host: mingle-ionapi.inforcloudsuite.com
-basePath: "/CPQTEST_TST/CPQ/api/v4"
+host: localhost
+basePath: "/TENANT/CPQ/api/v4"
 schemes:
 - https
 paths:
@@ -3727,3 +3727,4 @@ definitions:
       value:
         type: string
         format: byte
+
